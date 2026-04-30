@@ -62,6 +62,8 @@ exports[`exportAllLanguages has the correct contents for az.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -427,6 +429,436 @@ Və əlbəttə ki, Vikipediya məqaləsi də yaxşıdır.</p>
 "
 `;
 
+exports[`exportAllLanguages has the correct contents for bg.html 1`] = `
+"<!DOCTYPE html>
+<html >
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=\\"https://www.googletagmanager.com/gtag/js?id=UA-105814606-2\\"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-105814606-2');
+	</script>
+
+	<title>Интерактивно Въведение в Преобразуванията на Фурие</title>
+	<meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=utf-8\\" />
+	<link href=\\"css/styles.css\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+	<link href=\\"https://fonts.googleapis.com/css?family=Montserrat|Open+Sans\\" rel=\\"stylesheet\\">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name=\\"viewport\\" content=\\"width=device-width\\" />
+
+	<!-- Favicon magic -->
+	<link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"/apple-touch-icon.png\\">
+	<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"32x32\\" href=\\"/favicon-32x32.png\\">
+	<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"16x16\\" href=\\"/favicon-16x16.png\\">
+	<link rel=\\"manifest\\" href=\\"/site.webmanifest\\">
+	<link rel=\\"mask-icon\\" href=\\"/safari-pinned-tab.svg\\" color=\\"#5bbad5\\">
+	<meta name=\\"msapplication-TileColor\\" content=\\"#ffc40d\\">
+	<meta name=\\"theme-color\\" content=\\"#ffffff\\">
+
+	<!-- Stuff for Facebook/Twitter -->
+	<meta property=\\"og:url\\"                content=\\"http://www.jezzamon.com/fourier&#x2F;bg.html\\" />
+	<meta property=\\"og:type\\"               content=\\"website\\" />
+	<meta property=\\"og:title\\"              content=\\"Интерактивно Въведение в Преобразуванията на Фурие\\" />
+	<meta property=\\"og:description\\"        content=\\"Преобразованията на Фурие са инструмент, използван в много различни неща. Това е обяснение за какво прави преобразованието на Фурие и няколко начина, по които е полезно.\\" />
+	<meta property=\\"og:image\\"              content=\\"http://www.jezzamon.com/fourier/preview.png\\" />
+	<meta property=\\"og:image:type\\"         content=\\"image/png\\" />
+	<meta property=\\"og:image:width\\"        content=\\"1200\\" />
+	<meta property=\\"og:image:height\\"       content=\\"630\\" />
+	<meta name=\\"twitter:card\\"              content=\\"summary_large_image\\" />
+	<meta name=\\"twitter:site\\"              content=\\"@jezzamonn\\" />
+	<meta property=\\"fb:app_id\\"             content=\\"264785490940720\\" />
+</head>
+<body>
+<header>
+	<canvas id=\\"header-background\\" class=\\"header-background\\"></canvas>
+	<h1>Интерактивно Въведение в Преобразуванията на Фурие</h1>
+	<p>Jez Swanson</p>
+	<p>Преведено от Борислав Дочев</p>
+</header>
+<nav id=\\"languages\\">
+	<ul>
+		<li><a href=\\"&#x2F;fourier\\">English</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;az.html\\">Azərbaycanca</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;de.html\\">Deutsch</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;es.html\\">Español</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;fr.html\\">Français</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;it.html\\">Italiano</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;pl.html\\">Polski</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ko.html\\">한국어</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;zh-cn.html\\">简体中文</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;zh-tw.html\\">繁體中文</a></li>
+		<li><a href=\\"https://github.com/Jezzamonn/fourier/tree/master/content\\">Add a translation</a></li>
+	</ul>
+</nav>
+<main id=\\"content\\">
+	<p>Преобразованията на Фурие са инструмент, използван в много различни неща. Това е обяснение за какво прави преобразованието на Фурие и няколко начина, по които е полезно. И за как можеш да правиш красиви неща с него като например това:</p>
+<canvas id=\\"self-draw\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Ще обясня как работи анимацията, а по пътя и преобразованията на Фурие!</p>
+<p>До края ще имаш добра представа за:</p>
+<ul>
+<li>Какво прави Преобразование на Фурие</li>
+<li>Няколко практични приложения на Преобразованията на Фурие</li>
+<li>Няколко безсмислени, но готини приложения на Преобразованията на Фурие</li>
+</ul>
+<p>Засега ще оставим уравненията и математиката извън обяснението. Има купчина интересна математика зад него, но е по-добре да започнем с какво е и какво наистина прави, и защо ще желаеш да го използваш на първо място. Има няколко предложения за допълнително четене, ако желаеш да разбереш повече относно как работи!</p>
+<h2 id=\\"\\">Какво е това нещо?</h2>
+<p>Казано просто, преобразованието на Фурие е начин да разбиеш нещо на много синусови вълни. Както винаги, името идва от човек, живял преди много години, на име Фурие.</p>
+<p>Нека започнем с няколко прости примера и постепенно ще надградим. Първо ще разгледаме вълните - модели, които се повтарят с времето. </p>
+<p>Ето примерна вълна:</p>
+<canvas id=\\"combo-sine-wave\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Този вълнообразен модел може да бъде разделен на синусоиди. Това означава, че когато съберем двете синусови вълни, ще получим оригиналната вълна. </p>
+<canvas id=\\"combo-sine-wave-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Преобразованието на Фурие е начин за нас да вземем комбинирана вълна и да си върнем обратно съставляващите я синусови вълни. В този пример почти можеш да го направиш наум, само като гледаш оригиналната вълна.  </p>
+<p>Защо? Оказва се, че много неща в истинския живот си взаимодействат на база тези синусови вълни. Обикновено ги наричаме честотите на вълната. </p>
+<p>Най-очевидния пример е звукът – когато чуем звук, ние не чуваме драскулчестата вълна, а чуваме различните честоти на синусите, които изграждат звука. </p>
+<p><button id=\\"together-button\\" class=\\"button\\">Пусни Целия Звук</button></p>
+<p><button id=\\"split-button-1\\" class=\\"button\\">Пусни Висока Честота</button></p>
+<p><button id=\\"split-button-2\\" class=\\"button\\">Пусни Ниска Честота</button></p>
+<p>Възможността да можеш да ги разделяш на компютър може да ни даде представа за какво всъщност чува човек. Можем да разберем колко висок или нисък даден звук е или да разберем коя нота е.</p>
+<p>Можем да извършим този процес и на вълни, които не изглеждат като да са направени от синусоиди. </p>
+<p>Разгледай тази. Нарича се квадратна вълна.</p>
+<canvas id=\\"square-wave\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Може да не изглежда като да е възможно, но и тя може да бъде разделена на синусови вълни.</p>
+<canvas id=\\"square-wave-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Този път ни трябват много от тях - технически безкраен брой, за да я представим перфектно. С добавянето на повече и повече синусови вълни, моделът изглежда все по-близък до квадратната вълна с която започнахме.</p>
+<canvas id=\\"square-wave-build-up\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p><input id=\\"square-wave-build-up-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"0\\" step=\\"any\\" ></p>
+<p><button id=\\"square-wave-button\\" class=\\"button\\">Пусни Вълна</button></p>
+<p><em>Плъзни слайдерът отгоре, за да си поиграеш с колко синусови вълни има.</em></p>
+<p>Визуално ще забележиш, че всъщност само първите няколко синусови вълни са тези, които правят най-голямата разлика. Дори със слайдера наполовина, имаме общата форма на вълната, но е леко раздвижена. Просто ни трябват и останалите от малките вълни, за да я изгладим. </p>
+<p>Когато слушаш вълната, ще чуеш как звукът се снижава, защото премахваме по-високите честоти.</p>
+<p>Този процес работи за всяка повтаряща се вълна. Давай, нарисувай своя!</p>
+<div class=\\"multi-container\\">
+<div class=\\"sketch\\" >
+    <canvas id=\\"wave-draw\\" class=\\"sketch-child\\" width=500 height=300></canvas>
+    <p id=\\"wave-draw-instruction\\" class=\\"instruction wave-instruction\\">Рисувай тук!</p>
+</div>
+<canvas id=\\"wave-draw-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+</div>
+<p><input id=\\"wave-draw-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\">
+<button id=\\"wave-draw-button\\" class=\\"button\\">Пусни Вълна</button></p>
+<p><em>Мести слайдера, за да видиш как с добавянето на повече синусоиди, толкова повече се приближава до оригиналната ти рисунка</em></p>
+<p>Отново, освен допълнителната раздвиженост, вълната изглежда доста сходно само с половината синусови вълни.</p>
+<p>Всъщност можем да използваме факта, че вълната е доста сходна за наша ползва. Когато използваме преобразованието на Фурие, можем да извадим важните части на даден звук и само тях да запазим. Така ще получим нещо, което е доста сходно на оригиналния звук.</p>
+<p>Обикновено на компютър пазим вълните като последователност от точки.</p>
+<canvas id=\\"wave-samples\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Вместо това, можем да я запазим като купчина синусови вълни. След това компресираме звука, като игнорираме по-малките честоти. Крайният резултат няма да бъде същия, но ще звучи доста сходно на човек.</p>
+<canvas id=\\"wave-frequencies\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>По същество MP3-те правят това, само че те са по-хитри относно кои честоти запазват и кои премахват.</p>
+<p>В този случай използваме преобразования на Фурие, за да добием представа за основните характеристики на дадена вълна и после можем да правим неща като компресия.</p>
+<p>Нека задълбаем повече в преобразованието на Фурие. Следващата част ще изглежда готино, но също ще ти помогне да разбереш какво прави преобразованието. Но предимно изглежда готино.</p>
+<h2 id=\\"-1\\">Епицикли</h2>
+<p>В началото казах, че разделя неща на синусови вълни. Работата е там, че синусовите вълни, които създава не са обикновени синусови вълни, а 3Д. Можеш да ги наречеш \\"комплексни синусодии\\". Или просто \\"спирали\\".</p>
+<canvas id=\\"complex-sinusoid\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Ако ги погледнем от тази страна, приличат на синусови вълни. А отпред като кръгове.</p>
+<canvas id=\\"complex-sinusoid-turn\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Досега всичко, което правихме изискваше само обикновените 2Д синусови вълни. Когато правим преобразование на Фурие на 2Д вълни, комплексните части се анулират, така че да ни останат синусовите вълни.</p>
+<p>Но можем да използваме 3Д синусовите вълни, за да направим нещо забавно, което изглежда така:</p>
+<canvas id=\\"peace-epicycles\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Какво се случва тук?</p>
+<p>Еми, можем да си мислим за тази рисунка като 3Д фигура поради начинa по който се движи във времето. Ако си представиш ръката като да бъде рисувана от човек, трите измерения представлявят къде е върхът на молива в даден момент. Х и Y измеренията ни казват позицията и времевото измерение е времето в този момент.</p>
+<canvas id=\\"peace-3d\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Сега, когато имаме 3Д модел не можем да използваме нормалните 2Д синусови вълни, за да го представим. Колкото и 2Д синусови вълни да събираме, никога няма да стигнем нещо 3Д. Затова ни трябва нещо друго.</p>
+<p>Това, което можем да използваме е 3Д спиралата на синусовите вълни от преди. Ако съберем много от тях, можем да получим нещо, което изглежда на нашия 3Д модел.</p>
+<p>Спомни си, че тези вълни изглеждат като кръгове, когато ги погледнем от отпред. Този модел на кръг, движещ се около друг кръг, се нарича епицикъл.</p>
+<canvas id=\\"peace-build-up\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p><input id=\\"peace-build-up-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\"></p>
+<p><em>Използвай слайдера по-горе, за да контролираш колко кръгове има.</em></p>
+<p>Както преди, получаваме доста добро приближение на нашия модел само с няколко кръга. Тъй като това е доста проста форма, последните кръгове само правят ръбовете малко по-остри.</p>
+<p>Всичко това важи за всяка рисунка. Наистина! Сега е твоят шанс да си поиграеш с това.</p>
+<div class=\\"multi-container\\">
+<div class=\\"sketch\\" >
+    <canvas id=\\"draw-zone\\" class=\\"sketch-child\\" width=500 height=500></canvas>
+    <p id=\\"draw-zone-instruction\\" class=\\"instruction\\">Рисувай тук!</p>
+    <button id=\\"draw-zone-undo-button\\" class=\\"button embedded-button\\">Undo</button>
+</div>
+<canvas id=\\"circle-zone\\" class=\\"sketch\\" width=500 height=500></canvas>
+</div>
+<p><input id=\\"circle-zone-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\"></p>
+<p><em>Използвай слайдера, за да контролираш колко кръгчета са използвани за рисунката ти</em></p>
+<p>Отново, ще видиш, че повечето фигури можем да ги приближим сравнително точно само с малък брой кръгове, вместо да пазим всички точки.</p>
+<p>Можем ли да използваме това за истински данни? Ами, да можем! В действителност имаме друг формат данни, наречен SVG, който вероятно се справя по-добре с видовете рисунки, които обикновено правим. Засега, това е просто начин да правим готини малки gif-чета.</p>
+<canvas id=\\"fourier-title\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Все пак има и друг вид визуални данни, които използват преобразованието на Фурие.</p>
+<h2 id=\\"jpegs\\">JPEGs</h2>
+<p>Знаеше ли, че преобразованието на Фурие също може да бъде използвано върху изображения? Всъщност, ние го използваме през цялото време, тъй като JPEG изображенията работят така! Прилагаме същите принципи върху снимки - разбиваме нещо на купчина синусови вълни и запазваме само важните.</p>
+<p>Сега като работим с изображения, трябва да използваме друг тип синусова вълна. Трябва да имаме нещо, което независимо от каква снимка му дадем, да можем да съберем няколко от тези синусови вълни, за да получим обратно оригиналното изображение.</p>
+<p>За да направим това, всяка от синусовите ни вълни също трябва да бъдат изображение. Вместо вълна, която е линия, ще имаме снимки с бели и черни части. Всяко изображение ще има повече или по-малко контраст, за да можем да представим размерът на вълната.</p>
+<p>Можем да ги използваме и за да представим цвят по същия начин, но нека започнем с черно-бели снимки. За да представим безцветно изображение, ни трябват няколко изображения на хоризонтални вълни:</p>
+<p><img id=\\"img-y-component\\" src=\\"img/components-4-0.png\\" class=\\"sketch sketch-small\\"></p>
+<p>Както и на няколко вертикални вълни.</p>
+<p><img id=\\"img-x-component\\" src=\\"img/components-0-4.png\\" class=\\"sketch sketch-small\\"></p>
+<p>Самостоятелно само хоризонтални и вертикални изображения не са достатъчно, за да представим видовете снимки, които имаме. Ще ни трябват още няколко, които получаваме при умножение на вертикални и хоризонтални едни с други.</p>
+<div class=\\"multi-container\\">
+<img id=\\"img-mult-x-component\\" src=\\"img/components-0-4.png\\" class=\\"sketch sketch-mult\\">
+<div class=\\"maths\\">×</div>
+<img id=\\"img-mult-y-component\\" src=\\"img/components-4-0.png\\" class=\\"sketch sketch-mult\\">
+<div class=\\"maths\\">=</div>
+<img id=\\"img-x-y-component\\" src=\\"img/components-4-4.png\\" class=\\"sketch sketch-mult\\">
+</div>
+<p>Ето всичките снимки, които ни трябват за 8х8 на снимка.</p>
+<div class=\\"img-component-container\\">
+    <img src=\\"img/components-0-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-7.png\\" class=\\"img-component\\">
+</div>
+<p>Ако вземем тези снимки и им настроим контраста правилно, а след това ги съберем, можем да пресъздадем всяка снимка.</p>
+<p>Нека започнем с тази буква 'A'. Доста е малка, но ни трябва да е малка, защото иначе ще имаме твърде много други снимки.</p>
+<p><img src=\\"img/a.png\\" class=\\"sketch sketch-letter\\"></p>
+<p>Като прибавяме още и още от тези снмки, получаваме нещо, което става все по-близко до истинската снимка. Но може би виждаш модела, че имаме допустимо приближение само с няколко от тях.</p>
+<div class=\\"hidden-preload\\">
+    <img src=\\"img/img-buildup-0-0.png\\">
+    <img src=\\"img/img-buildup-0-1.png\\">
+    <img src=\\"img/img-buildup-0-2.png\\">
+    <img src=\\"img/img-buildup-0-3.png\\">
+    <img src=\\"img/img-buildup-0-4.png\\">
+    <img src=\\"img/img-buildup-0-5.png\\">
+    <img src=\\"img/img-buildup-0-6.png\\">
+    <img src=\\"img/img-buildup-0-7.png\\">
+    <img src=\\"img/img-buildup-1-0.png\\">
+    <img src=\\"img/img-buildup-1-1.png\\">
+    <img src=\\"img/img-buildup-1-2.png\\">
+    <img src=\\"img/img-buildup-1-3.png\\">
+    <img src=\\"img/img-buildup-1-4.png\\">
+    <img src=\\"img/img-buildup-1-5.png\\">
+    <img src=\\"img/img-buildup-1-6.png\\">
+    <img src=\\"img/img-buildup-1-7.png\\">
+    <img src=\\"img/img-buildup-2-0.png\\">
+    <img src=\\"img/img-buildup-2-1.png\\">
+    <img src=\\"img/img-buildup-2-2.png\\">
+    <img src=\\"img/img-buildup-2-3.png\\">
+    <img src=\\"img/img-buildup-2-4.png\\">
+    <img src=\\"img/img-buildup-2-5.png\\">
+    <img src=\\"img/img-buildup-2-6.png\\">
+    <img src=\\"img/img-buildup-2-7.png\\">
+    <img src=\\"img/img-buildup-3-0.png\\">
+    <img src=\\"img/img-buildup-3-1.png\\">
+    <img src=\\"img/img-buildup-3-2.png\\">
+    <img src=\\"img/img-buildup-3-3.png\\">
+    <img src=\\"img/img-buildup-3-4.png\\">
+    <img src=\\"img/img-buildup-3-5.png\\">
+    <img src=\\"img/img-buildup-3-6.png\\">
+    <img src=\\"img/img-buildup-3-7.png\\">
+    <img src=\\"img/img-buildup-4-0.png\\">
+    <img src=\\"img/img-buildup-4-1.png\\">
+    <img src=\\"img/img-buildup-4-2.png\\">
+    <img src=\\"img/img-buildup-4-3.png\\">
+    <img src=\\"img/img-buildup-4-4.png\\">
+    <img src=\\"img/img-buildup-4-5.png\\">
+    <img src=\\"img/img-buildup-4-6.png\\">
+    <img src=\\"img/img-buildup-4-7.png\\">
+    <img src=\\"img/img-buildup-5-0.png\\">
+    <img src=\\"img/img-buildup-5-1.png\\">
+    <img src=\\"img/img-buildup-5-2.png\\">
+    <img src=\\"img/img-buildup-5-3.png\\">
+    <img src=\\"img/img-buildup-5-4.png\\">
+    <img src=\\"img/img-buildup-5-5.png\\">
+    <img src=\\"img/img-buildup-5-6.png\\">
+    <img src=\\"img/img-buildup-5-7.png\\">
+    <img src=\\"img/img-buildup-6-0.png\\">
+    <img src=\\"img/img-buildup-6-1.png\\">
+    <img src=\\"img/img-buildup-6-2.png\\">
+    <img src=\\"img/img-buildup-6-3.png\\">
+    <img src=\\"img/img-buildup-6-4.png\\">
+    <img src=\\"img/img-buildup-6-5.png\\">
+    <img src=\\"img/img-buildup-6-6.png\\">
+    <img src=\\"img/img-buildup-6-7.png\\">
+    <img src=\\"img/img-buildup-7-0.png\\">
+    <img src=\\"img/img-buildup-7-1.png\\">
+    <img src=\\"img/img-buildup-7-2.png\\">
+    <img src=\\"img/img-buildup-7-3.png\\">
+    <img src=\\"img/img-buildup-7-4.png\\">
+    <img src=\\"img/img-buildup-7-5.png\\">
+    <img src=\\"img/img-buildup-7-6.png\\">
+    <img src=\\"img/img-buildup-7-7.png\\">
+</div>
+<div id=\\"letter-buildup\\" class=\\"multi-container\\">
+<img id=\\"letter-buildup-letter\\" src=\\"img/img-buildup-0-0.png\\" class=\\"sketch sketch-letter\\">
+<div id=\\"letter-buildup-components\\" class=\\"img-component-container\\">
+    <img src=\\"img/img-components-0-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-7.png\\" class=\\"img-component\\">
+</div>
+</div>
+<p>За истинските JPEG снимки има още няколко детайла.</p>
+<p>Снимката се разбива на части 8х8 и всяка от тях се разделя инвидивуално. Използваме множество от честоти, за да определим колко светъл или тъмен всеки пиксел е, а след това още две множества за цвета - един за червено-зелено и друг за синьо-жълто. Броят честоти, които използваме за всяка част, определя качеството на JPEG изображението.</p>
+<p>Ето истинско JPEG изобразжение, което е увеличено, за да видим детайлите. Когато си играем с нивата на качество, можем да видим как се случва процесът.</p>
+<div id=\\"jpeg-example\\" class=\\"sketch\\">
+    <img src=\\"img/cat.png\\" class=\\"sketch-child clear-pixels\\">
+</div>
+<h2 id=\\"-2\\">Заключение</h2>
+<p>Нека преговорим:</p>
+<ul>
+<li>Преобразованията на Фурие са неща, които ни позволяват да вземем нещо и да го разбием на съставляващите го честоти.</li>
+<li>Честотите ни дават информация за основните свойства на нашите данни.</li>
+<li>Можем да компресираме данни, като запазваме само важните честоти.</li>
+<li>И също можем да правим готини анимации с купчина кръгчета.</li>
+</ul>
+<p>Това е само повърхността на някои приложения. Преобразованието на Фурие е изключително силен инструмент, защото разделянето на неща на честоти е доста основно. Използва се в много области, включително в дизайн на интегрални схеми, сигнали на мобилини телефони, магнитно-резонанса томография (ЯМР) и квантова физика!</p>
+<h2 id=\\"-3\\">Въпроси за любопитните</h2>
+<p>Изпуснах повечето математически неща тук, но ако си заинтересован в принципите и как работи, ето няколко въпроса, които да ти помогнат в проучването:</p>
+<ul>
+<li>Как представяш преобразованието на Фурие математически?</li>
+<li>Каква е разликата между преобразование на Фурие в продължително време и преобразование на Фурие в дискретно време?</li>
+<li>Как изчисляваш преобразованието на Фурие?</li>
+<li>Как извършваш преобразование на Фурие на цяла песен? (Вместо само на една нота.)</li>
+</ul>
+<h2 id=\\"-4\\">Допълнително 'четене'</h2>
+<p>Няколко много добри ресурси, които можеш да разгледаш, за да научиш повече са:</p>
+<p><a href=\\"https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/\\">An Interactive Guide To The Fourier Transform</a>
+Добра статия, която задълбава повече в математиката на какво се случва.</p>
+<p><a href=\\"https://www.youtube.com/watch?v=spUNpyF58BY\\">But what is the Fourier Transform? A visual introduction.</a>
+Прекрасно Youtube видео на 3Blue1Brown, което също обяснява математиката на преобразованята на Фурие от аудио перспектива.</p>
+<p><a href=\\"https://alex.miller.im/posts/fourier-series-spinning-circles-visualization/\\">A Tale of Math & Art: Creating the Fourier Series Harmonic Circles Visualization</a>
+Друга статия, която обяснява как можеш да използваш епицикли, за да нарисуваш крива. Разглежда се от перспективата на линейната алгебра.</p>
+<p><a href=\\"https://en.wikipedia.org/wiki/Fourier_transform\\">Fourier transform (Wikipedia)</a>
+Разбира се и Уикипедия статия е доста добра.</p>
+<h2 id=\\"-5\\">Авторът</h2>
+<canvas id=\\"its-meee\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Аз съм Джез! Работя на пълен работен ден в <a href=\\"https://www.google.com\\">компания за търсене</a> по крайбрежието на САЩ и в свободното си време обичам да правя игри и интерактивни кодови неща като това!</p>
+<p>Тази уеб страница е open-source и можеш да разгледаш кода в <a href=\\"https://github.com/Jezzamonn/fourier\\">GitHub</a>! Ако имаш обратна връзка или въпроси, можеш да ми пратиш имейл на <span id=\\"email-text\\">fourier [at] jezzamon [dot] com</span>, или да ми пратиш tweet на <a href=\\"https://twitter.com/jezzamonn\\">Twitter</a>.</p>
+<p>Ако желаеш да разгледаш още от работата ми, разгледай <a href=\\"/\\">заглавната</a> ми страница. Ако искаш да видиш какво ще правя, можеш да последваш Twitter акаунта ми <a href=\\"https://twitter.com/jezzamonn\\">@jezzamonn</a>!</p>
+</main>
+<script src=\\"main.bundle.js\\"></script>
+</body>
+</html>
+"
+`;
+
 exports[`exportAllLanguages has the correct contents for de.html 1`] = `
 "<!DOCTYPE html>
 <html >
@@ -489,6 +921,8 @@ exports[`exportAllLanguages has the correct contents for de.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -919,6 +1353,8 @@ exports[`exportAllLanguages has the correct contents for debug.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -1007,6 +1443,8 @@ exports[`exportAllLanguages has the correct contents for es.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -1435,6 +1873,8 @@ exports[`exportAllLanguages has the correct contents for fa.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -1864,6 +2304,8 @@ exports[`exportAllLanguages has the correct contents for fr.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -2294,6 +2736,8 @@ exports[`exportAllLanguages has the correct contents for he.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -2723,6 +3167,8 @@ exports[`exportAllLanguages has the correct contents for index.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -3054,9 +3500,9 @@ exports[`exportAllLanguages has the correct contents for index.html 1`] = `
 <p>So let's recap:</p>
 <ul>
 <li>Fourier transforms are things that let us take something and split it up into its frequencies.</li>
-<li>The frequencies tell us about some fundamental properties of the data we have</li>
-<li>And can compress data by only storing the important frequencies</li>
-<li>And we can also use them to make cool looking animations with a bunch of circles</li>
+<li>The frequencies tell us about some fundamental properties of the data we have.</li>
+<li>And can compress data by only storing the important frequencies.</li>
+<li>And we can also use them to make cool looking animations with a bunch of circles.</li>
 </ul>
 <p>This is just scratching the surface into some applications. The Fourier transform is an extremely powerful tool, because splitting things up into frequencies is so fundamental. They're used in a lot of fields, including circuit design, mobile phone signals, magnetic resonance imaging (MRI), and quantum physics!</p>
 <h2 id=\\"questionsforthecurious\\">Questions for the curious</h2>
@@ -3151,6 +3597,8 @@ exports[`exportAllLanguages has the correct contents for it.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -3579,6 +4027,8 @@ exports[`exportAllLanguages has the correct contents for ko.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -4007,6 +4457,8 @@ exports[`exportAllLanguages has the correct contents for pl.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -4435,6 +4887,8 @@ exports[`exportAllLanguages has the correct contents for pt_br.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -4863,6 +5317,8 @@ exports[`exportAllLanguages has the correct contents for pt-br.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -5291,6 +5747,8 @@ exports[`exportAllLanguages has the correct contents for ru.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -5721,6 +6179,8 @@ exports[`exportAllLanguages has the correct contents for sk.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -6150,6 +6610,8 @@ exports[`exportAllLanguages has the correct contents for tr.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -6515,6 +6977,538 @@ Ve tabi ki Vikipedi makalesi de oldukça iyi.</p>
 "
 `;
 
+exports[`exportAllLanguages has the correct contents for ua.html 1`] = `
+"<!DOCTYPE html>
+<html >
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=\\"https://www.googletagmanager.com/gtag/js?id=UA-105814606-2\\"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-105814606-2');
+	</script>
+
+	<title>Інтерактивний вступ до перетворень Фур’є</title>
+	<meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=utf-8\\" />
+	<link href=\\"css/styles.css\\" rel=\\"stylesheet\\" type=\\"text/css\\">
+	<link href=\\"https://fonts.googleapis.com/css?family=Montserrat|Open+Sans\\" rel=\\"stylesheet\\">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta name=\\"viewport\\" content=\\"width=device-width\\" />
+
+	<!-- Favicon magic -->
+	<link rel=\\"apple-touch-icon\\" sizes=\\"180x180\\" href=\\"/apple-touch-icon.png\\">
+	<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"32x32\\" href=\\"/favicon-32x32.png\\">
+	<link rel=\\"icon\\" type=\\"image/png\\" sizes=\\"16x16\\" href=\\"/favicon-16x16.png\\">
+	<link rel=\\"manifest\\" href=\\"/site.webmanifest\\">
+	<link rel=\\"mask-icon\\" href=\\"/safari-pinned-tab.svg\\" color=\\"#5bbad5\\">
+	<meta name=\\"msapplication-TileColor\\" content=\\"#ffc40d\\">
+	<meta name=\\"theme-color\\" content=\\"#ffffff\\">
+
+	<!-- Stuff for Facebook/Twitter -->
+	<meta property=\\"og:url\\"                content=\\"http://www.jezzamon.com/fourier&#x2F;ua.html\\" />
+	<meta property=\\"og:type\\"               content=\\"website\\" />
+	<meta property=\\"og:title\\"              content=\\"Інтерактивний вступ до перетворень Фур’є\\" />
+	<meta property=\\"og:description\\"        content=\\"Перетворення Фур’є — це інструмент, який використовується в багатьох різних сферах. Це пояснення того, що робить перетворення Фур’є, а також деякі способи, як воно може бути корисним.\\" />
+	<meta property=\\"og:image\\"              content=\\"http://www.jezzamon.com/fourier/preview.png\\" />
+	<meta property=\\"og:image:type\\"         content=\\"image/png\\" />
+	<meta property=\\"og:image:width\\"        content=\\"1200\\" />
+	<meta property=\\"og:image:height\\"       content=\\"630\\" />
+	<meta name=\\"twitter:card\\"              content=\\"summary_large_image\\" />
+	<meta name=\\"twitter:site\\"              content=\\"@jezzamonn\\" />
+	<meta property=\\"fb:app_id\\"             content=\\"264785490940720\\" />
+</head>
+<body>
+<header>
+	<canvas id=\\"header-background\\" class=\\"header-background\\"></canvas>
+	<h1>Інтерактивний вступ до перетворень Фур’є</h1>
+	<p>Jez Swanson</p>
+	<p>Переклад українською – <a href=\\"https://korotenky.com/\\">Єгор Коротенко</a></p>
+</header>
+<nav id=\\"languages\\">
+	<ul>
+		<li><a href=\\"&#x2F;fourier\\">English</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;az.html\\">Azərbaycanca</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;de.html\\">Deutsch</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;es.html\\">Español</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;fr.html\\">Français</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;it.html\\">Italiano</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;pl.html\\">Polski</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ko.html\\">한국어</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;zh-cn.html\\">简体中文</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;zh-tw.html\\">繁體中文</a></li>
+		<li><a href=\\"https://github.com/Jezzamonn/fourier/tree/master/content\\">Add a translation</a></li>
+	</ul>
+</nav>
+<main id=\\"content\\">
+	<p>Перетворення Фур'є — це інструмент, який використовується в багатьох різних
+сферах. Ця стаття є поясненням того, що робить перетворення Фур'є, та деяких способів
+його корисного застосування. А також того, як з його допомогою можна створювати
+гарні речі, як-от цю:</p>
+<canvas id=\\"self-draw\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Я збираюся пояснити, як працює ця анімація, і попутно розповісти про перетворення Фур'є!</p>
+<p>Наприкінці ви матимете хороше уявлення про:</p>
+<ul>
+<li>Те, що робить перетворення Фур'є</li>
+<li>Деякі практичні застосування перетворень Фур'є</li>
+<li>Деякі безглузді, але круті застосування перетворень Фур'є</li>
+</ul>
+<p>Наразі ми залишимо математику та рівняння осторонь. За цим стоїть багато
+цікавої математики, але краще спочатку почати з того, що воно насправді робить
+і навіщо його використовувати. Якщо ви хочете дізнатися більше про те, як саме
+це працює, нижче наведено список рекомендованої літератури!</p>
+<h2 id=\\"\\">То що ж це таке?</h2>
+<p>Простіше кажучи, перетворення Фур'є — це спосіб розкласти щось на набір
+синусоїд. Як зазвичай, назва походить від імені людини, яка жила давно, на
+прізвище Фур'є.</p>
+<p>Почнемо з кількох простих прикладів і поступово перейдемо до складніших. Спершу
+ми розглянемо хвилі — закономірності, що повторюються з часом.</p>
+<p>Ось приклад хвилі:</p>
+<canvas id=\\"combo-sine-wave\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Цей хвилястий візерунок можна розкласти на синусоїдальні хвилі. Тобто, коли ми
+додаємо ці дві синусоїдальні хвилі, ми знову отримуємо вихідну хвилю.</p>
+<canvas id=\\"combo-sine-wave-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Перетворення Фур'є — це спосіб, що дозволяє нам узяти комбіновану хвилю і знову
+отримати кожну з синусоїдальних хвиль. У цьому прикладі ви можете зробити це
+майже в умі, просто поглянувши на початкову хвилю.</p>
+<p>Навіщо? Виявляється, чимало речей у реальному світі взаємодіють на основі цих синусоїдальних хвиль. Ми зазвичай називаємо їх частотами хвилі.</p>
+<p>Найбільш очевидним прикладом є звук — коли ми чуємо звук, ми не чуємо цю
+хвилясту лінію, а чуємо різні частоти синусоїдальних хвиль, що утворюють цей
+звук.</p>
+<p><button id=\\"together-button\\" class=\\"button\\">Відтворити повну хвилю</button></p>
+<p><button id=\\"split-button-1\\" class=\\"button\\">Відтворити високу частоту</button></p>
+<p><button id=\\"split-button-2\\" class=\\"button\\">Відтворити низьку частоту</button></p>
+<p>Можливість розділити їх на комп'ютері може дати нам розуміння того, що
+насправді чує людина. Ми можемо зрозуміти, наскільки високим чи низьким є звук,
+або визначити, яка це нота.</p>
+<p>Ми також можемо застосовувати цей процес до хвиль, які не виглядають так, ніби
+вони складаються з синусоїдальних хвиль.</p>
+<p>Давайте поглянемо на цей приклад. Він називається прямокутним сигналом.</p>
+<canvas id=\\"square-wave\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Це не так легко помітити, але його також можна розкласти на синусоїди.</p>
+<canvas id=\\"square-wave-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Цього разу нам потрібно їх багато — технічно, нескінченна кількість, щоб
+ідеально її представити. У міру того як ми додаємо все більше і більше
+синусоїд, патерн стає все ближчим і ближчим до прямокутної хвилі, з якої ми
+починали.</p>
+<canvas id=\\"square-wave-build-up\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p><input id=\\"square-wave-build-up-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"0\\" step=\\"any\\" ></p>
+<p><button id=\\"square-wave-button\\" class=\\"button\\">Відтворити хвилю</button></p>
+<p><em>Перетягніть повзунок угорі, щоб поекспериментувати з кількістю синусоїд.</em></p>
+<p>Візуально ви помітите, що насправді саме перші кілька синусоїд вносять
+найбільшу різницю. Коли повзунок знаходиться на середині, ми маємо загальну
+форму хвилі, але вона вся хвиляста. Нам просто потрібна решта малих хвиль, щоб
+згладити цю хвилястість.</p>
+<p>Коли ви послухаєте хвилю, ви почуєте, як звук стає нижчим, оскільки ми видаляємо вищі частоти.</p>
+<p>Цей процес працює так само для будь-якої лінії, що повторюється. Cпробуйте намалювати власну!</p>
+<div class=\\"multi-container\\">
+<div class=\\"sketch\\" >
+    <canvas id=\\"wave-draw\\" class=\\"sketch-child\\" width=500 height=300></canvas>
+    <p id=\\"wave-draw-instruction\\" class=\\"instruction wave-instruction\\">Малюйте тут!</p>
+</div>
+<canvas id=\\"wave-draw-split\\" class=\\"sketch\\" width=500 height=500></canvas>
+</div>
+<p><input id=\\"wave-draw-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\">
+<button id=\\"wave-draw-button\\" class=\\"button\\">Відтворити хвилю</button></p>
+<p><em>Переміщуйте повзунок, щоб побачити, як у міру додавання більшої кількості
+синусоїд результат стає все ближчим і ближчим до вашого малюнка</em></p>
+<p>Знову ж таки, окрім додаткової хвилястості, хвиля виглядає досить схожою лише з
+половиною синусоїд.</p>
+<p>Ми, на справді, можемо використати той факт, що хвиля є досить схожою, собі на
+користь. За допомогою перетворення Фур’є ми можемо виділити важливі частини
+звуку та зберегти лише їх, щоб отримати результат, досить близький до
+оригінального звуку.</p>
+<p>Зазвичай на комп’ютері ми зберігаємо хвилю як послідовність точок.</p>
+<canvas id=\\"wave-samples\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Натомість ми можемо представити його як набір синусоїдальних хвиль. Тоді ми
+зможемо стиснути звук, ігноруючи менші частоти. Наш кінцевий результат не буде
+таким самим, але для людини він звучатиме досить схоже.</p>
+<canvas id=\\"wave-frequencies\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Це, по суті, те, що роблять MP3-файли, за винятком того, що вони винахідливіше
+вибирають, які частоти залишати, а які відкидати.</p>
+<p>Отже, у цьому випадку ми можемо використовувати перетворення Фур'є, щоб
+зрозуміти фундаментальні властивості хвилі, а потім ми можемо використовувати
+це для таких речей, як стиснення.</p>
+<p>Гаразд, тепер давайте детальніше заглибимося в перетворення Фур'є. Ця наступна
+частина виглядає круто, а також дає трохи краще розуміння того, що саме робить
+перетворення Фур'є. Але здебільшого вона просто класно виглядає.</p>
+<h2 id=\\"-1\\">Епіцикли</h2>
+<p>На самому початку я сказав, що воно розкладає все на синусоїди. Річ у тім, що
+створювані ним синусоїди — це не просто звичайні синусоїди, вони тривимірні. Ви
+могли б назвати їх «комплексними синусоїдами». Або просто «спіралями».</p>
+<canvas id=\\"complex-sinusoid\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Якщо поглянути збоку, вони виглядають як синусоїди. Однак спереду вони виглядають як кола.</p>
+<canvas id=\\"complex-sinusoid-turn\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Дотепер усе, що ми робили, потребувало лише звичайних двовимірних
+синусоїдальних хвиль. Коли ми виконуємо перетворення Фур’є для двовимірних
+хвиль, комплексні частини взаємно знищуються, тож у результаті ми отримуємо
+лише синусоїдальні хвилі.</p>
+<p>Але ми можемо використовувати 3D-синусоїди, щоб створити щось цікаве на вигляд, як-от це:</p>
+<canvas id=\\"peace-epicycles\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Що тут відбувається?</p>
+<p>Що ж, ми можемо розглядати малюнок як тривимірну фігуру завдяки тому, як він
+рухається в часі. Якщо ви уявите, як людина малює руку, ці три виміри
+представляють положення кінчика її олівця в цей момент. Виміри x та y вказують
+на положення, а часовий вимір — це час у цей момент.</p>
+<canvas id=\\"peace-3d\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Тепер, коли ми маємо 3D-патерн, ми не можемо використовувати звичайні
+2D-синусоїди для його представлення. Скільки б 2D-синусоїд ми не додавали, ми
+ніколи не отримаємо щось тривимірне. Тому нам потрібно щось інше.</p>
+<p>Ми можемо використати тривимірні спіральні синусоїдальні хвилі, розглянуті
+раніше. Якщо ми додамо велику кількість таких хвиль, ми зможемо отримати щось
+схоже на нашу тривимірну структуру.</p>
+<p>Пам’ятайте, ці хвилі виглядають як кола, коли ми дивимося на них спереду. Назва
+візерунка, утвореного рухом одного кола навколо іншого, — епіцикл.</p>
+<canvas id=\\"peace-build-up\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p><input id=\\"peace-build-up-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\"></p>
+<p><em>Використовуйте повзунок угорі, щоб керувати кількістю кіл.</em></p>
+<p>Як і раніше, ми отримуємо досить хороше наближення нашого візерунка лише за
+допомогою кількох кіл. Оскільки це досить проста фігура, останні з них лише
+роблять краї трохи чіткішими.</p>
+<p>Усе це справді стосується будь-якого малюнка! Тепер у вас є можливість поекспериментувати з цим.</p>
+<div class=\\"multi-container\\">
+<div class=\\"sketch\\" >
+    <canvas id=\\"draw-zone\\" class=\\"sketch-child\\" width=500 height=500></canvas>
+    <p id=\\"draw-zone-instruction\\" class=\\"instruction\\">Малюйте тут!</p>
+    <button id=\\"draw-zone-undo-button\\" class=\\"button embedded-button\\">Скасувати</button>
+</div>
+<canvas id=\\"circle-zone\\" class=\\"sketch\\" width=500 height=500></canvas>
+</div>
+<p><input id=\\"circle-zone-slider\\" type=\\"range\\" min=\\"0\\" max=\\"1\\" value=\\"1\\" step=\\"any\\"></p>
+<p><em>Використовуйте повзунок, щоб керувати кількістю кіл, що використовуються для вашого малюнка</em></p>
+<p>Знову ж таки, ви побачите, що для більшості фігур ми можемо досить добре
+апроксимувати(наблизити) їх за допомогою лише невеликої кількості кіл, замість того, щоб
+зберігати всі точки.</p>
+<p>Чи можемо ми використовувати це для реальних даних? Що ж, ми могли б! Насправді
+у нас є інший формат даних під назвою SVG, який, мабуть, краще підходить для
+тих типів фігур, які ми зазвичай створюємо. Тож наразі це справді лише для
+створення крутих маленьких гіфок.</p>
+<canvas id=\\"fourier-title\\" class=\\"sketch\\" width=500 height=300></canvas>
+<p>Однак існує інший тип візуальних даних, який використовує перетворення Фур’є.</p>
+<h2 id=\\"jpeg\\">JPEG-файли</h2>
+<p>Чи знаєте ви, що перетворення Фур’є також можна використовувати для зображень?
+Насправді ми використовуємо це постійно, оскільки саме так працюють JPEG! Ми
+застосовуємо ті ж самі принципи до зображень — розкладаємо щось на низку
+синусоїд, а потім зберігаємо лише найважливіші.</p>
+<p>Тепер, коли ми маємо справу із зображеннями, нам потрібен інший тип синусоїди.
+Нам потрібно щось таке, щоб незалежно від того, яке зображення ми маємо, ми
+могли б скласти набір цих синусоїд, щоб повернутися до нашого початкового
+зображення.</p>
+<p>Для цього кожна з наших синусоїдальних хвиль також буде зображенням. Замість
+хвилі у вигляді лінії ми тепер маємо зображення з чорними та білими ділянками.
+Щоб відобразити амплітуду хвилі, кожне зображення матиме більшу або меншу
+контрастність.</p>
+<p>Ми також можемо використовувати їх для представлення кольору таким самим чином,
+але наразі почнемо з чорно-білих зображень. Щоб представити безколірні
+зображення, нам знадобляться певні зображення горизонтальних хвиль,</p>
+<p><img id=\\"img-y-component\\" src=\\"img/components-4-0.png\\" class=\\"sketch sketch-small\\"></p>
+<p>Разом із деякими зображеннями вертикальних хвиль.</p>
+<p><img id=\\"img-x-component\\" src=\\"img/components-0-4.png\\" class=\\"sketch sketch-small\\"></p>
+<p>Самих лише горизонтальних та вертикальних зображень недостатньо, щоб
+представити типи зображень, які ми отримуємо. Нам також потрібні додаткові, які
+можна отримати, перемноживши їх між собою.</p>
+<div class=\\"multi-container\\">
+<img id=\\"img-mult-x-component\\" src=\\"img/components-0-4.png\\" class=\\"sketch sketch-mult\\">
+<div class=\\"maths\\">×</div>
+<img id=\\"img-mult-y-component\\" src=\\"img/components-4-0.png\\" class=\\"sketch sketch-mult\\">
+<div class=\\"maths\\">=</div>
+<img id=\\"img-x-y-component\\" src=\\"img/components-4-4.png\\" class=\\"sketch sketch-mult\\">
+</div>
+<p>Для зображення розміром 8x8 ось усі потрібні нам зображення.</p>
+<div class=\\"img-component-container\\">
+    <img src=\\"img/components-0-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-0-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-1-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-2-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-3-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-4-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-5-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-6-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/components-7-7.png\\" class=\\"img-component\\">
+</div>
+<p>Якщо ми візьмемо ці зображення, налаштуємо їхню контрастність до потрібного
+рівня та додамо їх, ми зможемо створити будь-яке зображення.</p>
+<p>Почнемо з цієї літери 'А'. Вона досить маленька, але вона має бути маленькою,
+інакше ми отримаємо занадто багато інших зображень.</p>
+<p><img src=\\"img/a.png\\" class=\\"sketch sketch-letter\\"></p>
+<p>У міру того як ми додаємо все більше й більше цих зображень, ми в результаті
+отримуємо щось, що стає дедалі ближчим до справжнього зображення. Але, гадаю,
+ви помітите тут закономірність, оскільки ми отримуємо прийнятне наближення лише
+за допомогою кількох із них.</p>
+<div class=\\"hidden-preload\\">
+    <img src=\\"img/img-buildup-0-0.png\\">
+    <img src=\\"img/img-buildup-0-1.png\\">
+    <img src=\\"img/img-buildup-0-2.png\\">
+    <img src=\\"img/img-buildup-0-3.png\\">
+    <img src=\\"img/img-buildup-0-4.png\\">
+    <img src=\\"img/img-buildup-0-5.png\\">
+    <img src=\\"img/img-buildup-0-6.png\\">
+    <img src=\\"img/img-buildup-0-7.png\\">
+    <img src=\\"img/img-buildup-1-0.png\\">
+    <img src=\\"img/img-buildup-1-1.png\\">
+    <img src=\\"img/img-buildup-1-2.png\\">
+    <img src=\\"img/img-buildup-1-3.png\\">
+    <img src=\\"img/img-buildup-1-4.png\\">
+    <img src=\\"img/img-buildup-1-5.png\\">
+    <img src=\\"img/img-buildup-1-6.png\\">
+    <img src=\\"img/img-buildup-1-7.png\\">
+    <img src=\\"img/img-buildup-2-0.png\\">
+    <img src=\\"img/img-buildup-2-1.png\\">
+    <img src=\\"img/img-buildup-2-2.png\\">
+    <img src=\\"img/img-buildup-2-3.png\\">
+    <img src=\\"img/img-buildup-2-4.png\\">
+    <img src=\\"img/img-buildup-2-5.png\\">
+    <img src=\\"img/img-buildup-2-6.png\\">
+    <img src=\\"img/img-buildup-2-7.png\\">
+    <img src=\\"img/img-buildup-3-0.png\\">
+    <img src=\\"img/img-buildup-3-1.png\\">
+    <img src=\\"img/img-buildup-3-2.png\\">
+    <img src=\\"img/img-buildup-3-3.png\\">
+    <img src=\\"img/img-buildup-3-4.png\\">
+    <img src=\\"img/img-buildup-3-5.png\\">
+    <img src=\\"img/img-buildup-3-6.png\\">
+    <img src=\\"img/img-buildup-3-7.png\\">
+    <img src=\\"img/img-buildup-4-0.png\\">
+    <img src=\\"img/img-buildup-4-1.png\\">
+    <img src=\\"img/img-buildup-4-2.png\\">
+    <img src=\\"img/img-buildup-4-3.png\\">
+    <img src=\\"img/img-buildup-4-4.png\\">
+    <img src=\\"img/img-buildup-4-5.png\\">
+    <img src=\\"img/img-buildup-4-6.png\\">
+    <img src=\\"img/img-buildup-4-7.png\\">
+    <img src=\\"img/img-buildup-5-0.png\\">
+    <img src=\\"img/img-buildup-5-1.png\\">
+    <img src=\\"img/img-buildup-5-2.png\\">
+    <img src=\\"img/img-buildup-5-3.png\\">
+    <img src=\\"img/img-buildup-5-4.png\\">
+    <img src=\\"img/img-buildup-5-5.png\\">
+    <img src=\\"img/img-buildup-5-6.png\\">
+    <img src=\\"img/img-buildup-5-7.png\\">
+    <img src=\\"img/img-buildup-6-0.png\\">
+    <img src=\\"img/img-buildup-6-1.png\\">
+    <img src=\\"img/img-buildup-6-2.png\\">
+    <img src=\\"img/img-buildup-6-3.png\\">
+    <img src=\\"img/img-buildup-6-4.png\\">
+    <img src=\\"img/img-buildup-6-5.png\\">
+    <img src=\\"img/img-buildup-6-6.png\\">
+    <img src=\\"img/img-buildup-6-7.png\\">
+    <img src=\\"img/img-buildup-7-0.png\\">
+    <img src=\\"img/img-buildup-7-1.png\\">
+    <img src=\\"img/img-buildup-7-2.png\\">
+    <img src=\\"img/img-buildup-7-3.png\\">
+    <img src=\\"img/img-buildup-7-4.png\\">
+    <img src=\\"img/img-buildup-7-5.png\\">
+    <img src=\\"img/img-buildup-7-6.png\\">
+    <img src=\\"img/img-buildup-7-7.png\\">
+</div>
+<div id=\\"letter-buildup\\" class=\\"multi-container\\">
+<img id=\\"letter-buildup-letter\\" src=\\"img/img-buildup-0-0.png\\" class=\\"sketch sketch-letter\\">
+<div id=\\"letter-buildup-components\\" class=\\"img-component-container\\">
+    <img src=\\"img/img-components-0-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-0-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-1-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-2-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-3-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-4-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-5-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-6-7.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-0.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-1.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-2.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-3.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-4.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-5.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-6.png\\" class=\\"img-component\\">
+    <img src=\\"img/img-components-7-7.png\\" class=\\"img-component\\">
+</div>
+</div>
+<p>Для справжніх JPEG-зображень є лише кілька додаткових деталей.</p>
+<p>Зображення розбивається на блоки 8x8, і кожен блок розділяється окремо. Ми
+використовуємо набір частот, щоб визначити, наскільки світлим або темним є
+кожен піксель, а потім ще два набори для кольору: один для червоно-зеленого і
+ще один для синьо-жовтого. Кількість частот, які ми використовуємо для кожного
+блоку, визначає якість JPEG.</p>
+<p>Ось справжнє зображення JPEG, збільшене так, щоб ми могли бачити деталі. Коли
+ми експериментуємо з рівнями якості, ми можемо побачити, як відбувається цей
+процес.</p>
+<div id=\\"jpeg-example\\" class=\\"sketch\\">
+    <img src=\\"img/cat.png\\" class=\\"sketch-child clear-pixels\\">
+</div>
+<h2 id=\\"-2\\">Висновок</h2>
+<p>Отже, підсумуємо:</p>
+<ul>
+<li>Перетворення Фур'є — це засоби, які дозволяють нам взяти щось і розбити це на частоти.</li>
+<li>Частоти повідомляють нам про деякі фундаментальні властивості наявних у нас даних</li>
+<li>І вони можуть стискати дані, зберігаючи лише важливі частоти</li>
+<li>А також ми можемо використовувати їх для створення крутих анімацій із безліччю кіл</li>
+</ul>
+<p>Це лише поверхневий огляд деяких застосувань. Перетворення Фур'є — це
+надзвичайно потужний інструмент, оскільки розкладання на частоти є дуже
+фундаментальним. Вони використовуються в багатьох галузях, зокрема в
+проектуванні схем, сигналах мобільного зв'язку, магнітно-резонансній томографії
+(МРТ) та квантовій фізиці!</p>
+<h2 id=\\"-3\\">Питання для допитливих</h2>
+<p>Я опустив більшу частину математичних подробиць, але якщо вас цікавлять основні
+принципи того, як це працює, ось кілька запитань, якими ви можете керуватися у
+своєму дослідженні:</p>
+<ul>
+<li>Як математично представити перетворення Фур'є?</li>
+<li>Яка різниця між неперервним перетворенням Фур'є та дискретним перетворенням Фур'є?</li>
+<li>Як виконати перетворення Фур'є обчислювальними методами?</li>
+<li>Як виконати перетворення Фур'є для цілої пісні? (А не лише для однієї ноти).</li>
+</ul>
+<h2 id=\\"-4\\">Додаткові матеріали</h2>
+<p>Щоб дізнатися більше, ви можете ознайомитися з деякими дійсно чудовими
+ресурсами:</p>
+<p><a href=\\"https://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/\\">Інтерактивний посібник із перетворення
+Фур'є</a>
+Чудова стаття, яка детальніше розглядає математику того, що відбувається.</p>
+<p><a href=\\"https://www.youtube.com/watch?v=spUNpyF58BY\\">Але що таке перетворення Фур'є? Візуальний
+вступ.</a>
+Чудове відео на YouTube від 3Blue1Brown, де також пояснюється математика перетворень Фур'є з точки зору аудіо.</p>
+<p><a href=\\"https://alex.miller.im/posts/fourier-series-spinning-circles-visualization/\\">Історія про математику та мистецтво: створення візуалізації гармонійних кіл
+ряду
+Фур'є</a>
+Ще одна стаття, яка пояснює, як можна використовувати епіцикли для малювання
+траєкторії, описана з точки зору лінійної алгебри.</p>
+<p><a href=\\"https://en.wikipedia.org/wiki/Fourier_transform\\">Перетворення Фур'є (Вікіпедія)</a>
+І, звісно, стаття у Вікіпедії також досить хороша.</p>
+<h2 id=\\"-5\\">Автор</h2>
+<canvas id=\\"its-meee\\" class=\\"sketch\\" width=500 height=500></canvas>
+<p>Я — Джез! Я працюю на повну ставку в <a href=\\"https://www.google.com/\\">пошуковій
+компанії</a> у районі Затоки, а у вільний час мені
+подобається створювати ігри та інтерактивні програмні штуки, подібні до цієї!</p>
+<p>Ця вебсторінка має відкритий вихідний код, ви можете переглянути його на
+<a href=\\"https://github.com/Jezzamonn/fourier\\">GitHub</a>! Якщо у вас є відгуки або ви
+хочете поставити запитання, не соромтеся писати мені на <span
+id=\\"email-text\\">fourier [at] jezzamon [dot] com</span> або напишіть мені в
+<a href=\\"https://twitter.com/jezzamonn\\">Twitter</a>.</p>
+<p>Якщо ви хочете побачити більше моїх робіт, завітайте на мою <a href=\\"/\\">домашню
+сторінку</a>, а якщо хочете дізнатися, що я створюватиму далі, ви можете
+підписатися на мій Twitter-акаунт, <a href=\\"https://twitter.com/jezzamonn\\">@jezzamonn</a>!</p>
+<h2 id=\\"-6\\">Переклад</h2>
+<p>Переклад українською мовою – Єгор Коротенко
+<a href=\\"https://korotenky.com/\\">korotenky.com</a>.</p>
+</main>
+<script src=\\"main.bundle.js\\"></script>
+</body>
+</html>
+"
+`;
+
 exports[`exportAllLanguages has the correct contents for zh-cn.html 1`] = `
 "<!DOCTYPE html>
 <html >
@@ -6577,6 +7571,8 @@ exports[`exportAllLanguages has the correct contents for zh-cn.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>
@@ -7008,6 +8004,8 @@ exports[`exportAllLanguages has the correct contents for zh-tw.html 1`] = `
 		<li><a href=\\"&#x2F;fourier&#x2F;pt-br.html\\">Português</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;sk.html\\">Slovenčina</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;tr.html\\">Türkçe</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;ua.html\\">Ukrainian</a></li>
+		<li><a href=\\"&#x2F;fourier&#x2F;bg.html\\">Български</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;ru.html\\">Русский</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;he.html\\">עברית</a></li>
 		<li><a href=\\"&#x2F;fourier&#x2F;fa.html\\">فارسی</a></li>

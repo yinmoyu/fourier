@@ -1,5 +1,5 @@
 import { loopLikeAJpeg, range } from './jpeg.js'
-import { expect } from 'chai.js';
+import { expect } from 'chai';
 
 describe("range", () => {
     it('should work with 1 param', () => {

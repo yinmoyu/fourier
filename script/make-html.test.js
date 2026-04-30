@@ -1,9 +1,9 @@
 import { exportAllLanguages } from './make-html.js';
-import { promises as fs } from 'fs.js';
-import os from 'os.js';
-import path from 'path.js';
-import chai, { expect } from 'chai.js';
-import { jestSnapshotPlugin } from 'mocha-chai-jest-snapshot.js';
+import { promises as fs } from 'fs';
+import os from 'os';
+import path from 'path';
+import chai, { expect } from 'chai';
+import { jestSnapshotPlugin } from 'mocha-chai-jest-snapshot';
 
 chai.use(jestSnapshotPlugin());
 
@@ -16,6 +16,7 @@ describe('exportAllLanguages', () => {
 
     const expectedFiles = [
         "az.html",
+        "bg.html",
         "de.html",
         "debug.html",
         "es.html",
@@ -31,6 +32,7 @@ describe('exportAllLanguages', () => {
         "ru.html",
         "sk.html",
         "tr.html",
+        "ua.html",
         "zh-cn.html",
         "zh-tw.html",
     ];
